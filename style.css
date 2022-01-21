@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+  background-color: #fff5e1;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 2.5rem;
+  padding-left: 100px;
+  padding-top: 60px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fff;
+  display: none;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+
+@media (max-width: 950px) {
+  h2 {
+    display: block;
+  }
+}
+
+header {
+  background-color: #3a9096;
+  height: 80px;
+}
+
+nav {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+@media (max-width: 950px) {
+  nav {
+    margin: 0;
+  }
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #5ad4dd;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+@media (max-width: 950px) {
+  header ul {
+    display: none;
+  }
+}
+
+.about {
+  color: #876445;
+  height: 600px;
+  text-align: center;
+}
+
+.hello {
+  font-size: 2.3rem;
+  font-style: italic;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.experience {
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.about ul {
+  list-style: none;
+  line-height: 3em;
+  padding: 0;
+}
+
+.cv {
+  font-size: 1.5rem;
+  color: #9ba356;
+  padding-top: 30px;
+}
+
+.cv a {
+  color: #876445;
+}
+
+.cv a:hover {
+  color: #a37a56;
+}
+
+.contact {
+  color: #876445;
+  height: 400px;
+  text-align: center;
+}
+
+.portfolio {
+  background-color: #fff;
+  min-height: 1000px;
+}
+
+@media (max-width: 950px) {
+  .portfolio {
+    min-height: 500px;
+  }
+}
+
+.projects-small {
+  text-align: center;
+  display: none;
+}
+.projects-small ul {
+  list-style: none;
+}
+
+.projects-small a {
+  color: #876445;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.projects-small a:hover {
+  color: #a37a56;
+}
+
+@media (max-width: 950px) {
+  .projects-small {
+    display: block;
+  }
+}
+
+.projects-big {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px 60px;
+}
+
+@media (max-width: 950px) {
+  .projects-big {
+    display: none;
+  }
+}
+
+.project {
+  height: 400px;
+}
+
+.project h4 {
+  font-size: 1.5rem;
+}
+
+.project img {
+  height: 80%;
+  width: 80%;
+}
+
+.contact ul {
+  margin: 0;
+  padding: 40px 0 0 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h3 {
+  padding-left: 0;
+}
+
+.contact p {
+  font-size: 1.5rem;
+}
+
+.contact ul a {
+  color: #876445;
+  padding: 0 20px;
+}
+
+.contact ul a:hover {
+  color: #a37a56;
+}
+
+i {
+  font-size: 2.5rem;
+}
+
+footer {
+  background-color: #35858b;
+  height: 60px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+/* Colors */
+/* Azul oscuro #072227
+Azul #35858B
+Azul clarito #4FBDBA
+Cafe #876445
+Cafe clarito #CA965C
+Cafe muy suave de fondo #FFF5E1 */
