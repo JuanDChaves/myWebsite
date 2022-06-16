@@ -15,6 +15,13 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+/* sticky header */
+
+header h2 {
+    font-size: 2em;
+    cursor: pointer;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -27,15 +34,48 @@ header nav ul {
 }
 
 header nav ul li {
+    padding: 5px;
+    margin-left: 15px;
     list-style: none;
+    cursor: pointer;
 }
 
 header nav ul li a {
     text-decoration: none;
+    color: #000;
+    font-size: 1.4em;
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
+}
+
+
+/* HERO */
+.hero {
+    height: 90vh;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    height: 100vh;
 }
 
 .project img {
     width: 1000px;
+}
+
+/* ABOUT */
+
+.about {
+    height: 100vh;
+}
+
+/* CONTACT ME */
+
+.contact {
+    height: 100vh;
 }
 
 /* font-family: 'Fredoka One', cursive;

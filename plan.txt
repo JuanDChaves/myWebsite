@@ -14,18 +14,19 @@
 Debe tener =    a. Hero
                     a.1 Imagen chevere
                     a.2 Presentacion
-                b. About
-                    b.1 Who am I
-                    b.2 Experience
-                c. Conctact me
-                    c.1 Nombre
-                    c.2 Apellido
-                    c.3 Email
-                    c.4 Comment
-                d. Porfolio
-                    d.1 Sonar
-                    d.2 Lili
-                    d.3 Canon
-                    d.4 Poem Intervention o algo con methods    
-                    d.5 Tracker
+                b. Porfolio
+                    b.1 Sonar
+                    b.2 Lili
+                    b.3 Canon
+                    b.4 Poem Intervention o algo con methods    
+                    b.5 Tracker
+                c. About
+                    c.1 Who am I
+                    c.2 Experience
+                d. Conctact me
+                    d.1 Nombre
+                    d.2 Apellido
+                    d.3 Email
+                    d.4 Comment
+                
         
