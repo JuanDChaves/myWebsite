@@ -19,6 +19,17 @@ body {
 header {
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    color: hsl(0, 0%, 12%);
+    transition: all 0.5s ease-out;
+}
+
+header.scrolled {
+    background-color: hsl(0, 0%, 12%);
+    color: #fff;
 }
 
 header h2 {
@@ -29,6 +40,7 @@ header h2 {
 header nav {
     display: flex;
     justify-content: space-between;
+
     width: 1100px;
 }
 
@@ -48,6 +60,10 @@ header nav ul li a {
     text-decoration: none;
     color: #000;
     font-size: 1.4em;
+}
+
+header.scrolled nav ul li a {
+    color: #fff;
 }
 
 header nav ul li:hover {
@@ -80,7 +96,15 @@ header nav ul li:hover {
 /* CONTACT ME */
 
 .contact {
-    height: 100vh;
+    height: 80vh;
+}
+
+/* FOOTER */
+footer {
+    background-color: hsl(0, 0%, 12%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
 }
 
 /* font-family: 'Fredoka One', cursive;
