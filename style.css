@@ -1,128 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Heebo&family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Heebo&family=Merriweather&display=swap");
 
 :root {
-    --pimary-color: #0051FF;
+  --pimary-color: #0051ff;
 }
 
-*{
-    box-sizing: border-box;
-} 
+* {
+  box-sizing: border-box;
+}
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Merriweather', serif;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Merriweather", serif;
 }
 
-h4 {
-    font-size: 2em;
-    text-decoration: overline;
+main {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 2em;
+  text-decoration: overline;
 }
 
 p {
-    font-size: 2em;
+  font-size: 2em;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #fff;
-    color: hsl(0, 0%, 12%);
-    transition: all 0.5s ease-out;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  color: hsl(0, 0%, 12%);
+  transition: all 0.5s ease-out;
 }
 
 header.scrolled {
-    background-color: hsl(0, 0%, 12%);
-    color: #fff;
+  background-color: hsl(0, 0%, 12%);
+  color: #fff;
 }
 
 header h2 {
-    font-size: 2em;
-    cursor: pointer;
+  font-size: 2em;
+  cursor: pointer;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    width: 1100px;
+  width: 1100px;
 }
 
 header nav ul {
-    display: flex;
-    padding: 0;
+  display: flex;
+  padding: 0;
 }
 
 header nav ul li {
-    padding: 5px;
-    margin-left: 15px;
-    list-style: none;
-    cursor: pointer;
+  padding: 5px;
+  margin-left: 15px;
+  list-style: none;
+  cursor: pointer;
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.4em;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4em;
 }
 
 header.scrolled nav ul li a {
-    color: #fff;
+  color: #fff;
 }
 
 header nav ul li:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 
 /* HERO */
 .hero {
-    margin-top: 100px;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  margin-top: 100px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero h3 {
-    font-size: 4em;
-    margin-top: 0;
+  font-size: 4em;
+  margin-top: 0;
 }
 
 /* PORTFOLIO */
 
 .portfolio {
-    height: 100vh;
+  height: 100vh;
+}
+
+.projects {
+  border: 1px solid black;
 }
 
 .project img {
-    width: 900px;
+  width: 100px;
 }
 
 /* ABOUT */
 
 .about {
-    height: 100vh;
+  height: 100vh;
 }
 
 /* CONTACT ME */
 
 .contact {
-    height: 80vh;
+  height: 80vh;
 }
 
 /* FOOTER */
 footer {
-    background-color: hsl(0, 0%, 12%);
-    color: #fff;
-    width: 100%;
-    text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 /* font-family: 'Fredoka One', cursive;
